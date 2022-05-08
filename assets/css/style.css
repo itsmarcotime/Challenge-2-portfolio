@@ -16,6 +16,12 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    background-image: url("../images/hero-logo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+    z-index: 9999;
 }
 
 header h1 {
@@ -23,10 +29,18 @@ header h1 {
     font-size: 36px;
     color: white;
     margin: 0;
+    background: white;
+    border: solid 5px white;
+    border-radius: 10px;
 }
 
 header a {
-    color: white;
+    color: rgb(34, 33, 33);
+    text-decoration: none;
+    background: white;
+    margin: 10px;
+    text-shadow: 0 0 10px rgba(0,0,0, 50%);
+    border-radius: 10px;
 }
 
 header nav {
@@ -39,11 +53,37 @@ header nav ul {
     justify-content: space-between;
     align-items: center;
     list-style: none;
+    margin: 0px;
 }
 
 header nav ul li a {
     padding: 10px 15px;
-    font-weight: lighter;
+    font-weight: bold;
     font-size: 1.55vw;
+}
+/* end header */
+
+/* start hero styles */
+.hero {
+    background-image: url("../images/hero-logo.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+}
+
+.hero div {
+    color: rgb(34, 33, 33);
+    margin-top: 400px;
+    margin-bottom: 20px;
+    background: white;
+    padding: 10px;
+    text-shadow: 0 0 10px rgb(0, 0, 0 , 50%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
