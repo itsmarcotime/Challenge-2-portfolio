@@ -92,7 +92,7 @@ header nav ul li a {
 
 /* start about me section */
 .about-class {
-    background-color: rgb(24, 24, 28);
+    background: rgb(24, 24, 28);
 }
 
 .div-flex {
@@ -127,7 +127,6 @@ header nav ul li a {
 .about-img {
     flex: 1 12%;
     margin: 20px;
-
 }
 
 .about-p {
@@ -138,12 +137,47 @@ header nav ul li a {
 
 .about-img img {
     max-width: 100%;
+    border-radius: 10px;
 }
 /* end about me */
 
 
 /* start work section */
+.work-class {
+    background: rgb(24, 24, 28);
+    display: flex;
+    justify-content: flex-start;
+}
 
+.work-title {
+    color: rgb(34, 33, 33);
+    background: white;
+    font-size: 25px;
+    padding: 10px;
+    text-shadow: 0 0 10px rgb(0, 0, 0 , 50%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 400px;
+}
+
+.article-work {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+
+.work-boxlink {
+    margin: 20px;
+    border: solid 5px white;
+    text-align: center;
+    padding: 10px;
+}
+
+.work-info {
+    color:rgb(34, 33, 33);
+    background: white;
+}
 
 
 
