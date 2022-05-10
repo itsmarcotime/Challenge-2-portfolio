@@ -246,11 +246,61 @@ header nav ul li a {
 
 
 /* start resume section */
+.resume-class {
+    background: rgb(24, 24, 28);
+    color: white;
+    display: flex;
+}
+
+.resume-tile {
+    color: rgb(34, 33, 33);
+    background: white;
+    font-size: 25px;
+    padding: 15px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-shadow: 0 0 10px rgb(0, 0, 0 , 50%);
+    margin-bottom: 500px;
+}
+
+.resume-text {
+    font-size: 25px;
+    border: solid 5px white;
+    border-radius: 10px;
+    height: 235px;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.resume-text h4 {
+    font-weight: bold;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.resume-text p {
+    padding: 20px
+}
+
+.resume-text a {
+    padding-bottom: 100px;
+}
+
+/***** this goes on secondary resume page may have to move *****/
 .resume-page {
     background: rgb(24, 24, 28);
     color: white;
     font-weight: bold;
 }
+/******   ********/
+
+/* end resume */
+
+
+/* start footer section */
+
+
+
 
 
 
