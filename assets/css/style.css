@@ -246,7 +246,11 @@ header nav ul li a {
 
 
 /* start resume section */
-
+.resume-page {
+    background: rgb(24, 24, 28);
+    color: white;
+    font-weight: bold;
+}
 
 
 
