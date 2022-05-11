@@ -313,6 +313,7 @@ footer {
 
 /* start media queries */
 
+
 /* 980px starts */
 @media screen and (max-width: 980px) {
     .work-boxlink {
@@ -343,6 +344,8 @@ footer {
 }
 /* end 980 */
 
+
+
 /* start 768 */
 @media screen and (max-width: 768px) {
     .img-w-p {
@@ -357,6 +360,8 @@ footer {
 }
 /* end 768 */
 
+
+
 /* start 575 */
 @media screen and (max-width: 575px) {
 
@@ -369,6 +374,7 @@ footer {
         margin-left: -100px;
     }
 }
+/* end 575 */
 
 
 
