@@ -1,5 +1,3 @@
-# ***NOTE**** this is link for project 2 8/11/22  https://theforgottenpages.herokuapp.com/  This will go on my portfolio later currently having terminal issues! inserting in read!!
-
 # Challenge-2-portfolio
 
 ## My Portfolio
